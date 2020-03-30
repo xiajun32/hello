@@ -47,7 +47,22 @@ h1{
     left: 650px;
 }
 
+.bottom2{
+    /* border: 1px solid red;  */
+    position: absolute;
+    top: 780px;
+    left: 650px;
+}
+
 .face{
+    float: left;
+    border: 3px soild white;
+    width: 39px;
+    height: 39px;
+    border-bottom: 50%;
+}
+
+.face2{
     float: left;
     border: 3px soild white;
     width: 39px;
@@ -65,6 +80,57 @@ h1{
     line-height: 40px;
     margin-left: 50px;
 }
+
+.day{
+    position: absolute;
+    top: 80px;
+    right: 650px;
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2bab79;
+    line-height: 35px;
+    color: white;
+}
+
+.day2{
+    position: absolute;
+    top: 480px;
+    right: 650px;
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2bab79;
+    line-height: 35px;
+    color: white;
+}
+
+em{
+    font-style: normal;
+    font-weight: bolder;
+}
+
+span{
+    margin-left: 30px;
+}
+
+.qui-aside{
+    position: absolute;
+    top: 29px;
+    left: 440px;
+    border: 1px solid red;
+    width: 200px;
+    height: 700px;
+    /* background-color: #2d3741; */
+}
+
+ul{
+   list-style: none;
+}
 </style>
 <body>
     <header class="qui-header">
@@ -81,6 +147,51 @@ h1{
     </p>
     <h2 class="title">我的旅游行程</h2>
     </div>
+
+    <p class="day">
+        14天
+    </p>
+
+    <div>
+        <em>
+            城市
+        </em>
+        <span>昆明-香格里拉-西藏</span>
+    </div>
     </section>
+
+    <section class="plcRouteList">
+        <a href="">
+            <img src="images/images/华东.jpg" alt="" width="635">
+        </a>
+        <div class="bottom2">
+        <p class="face2">
+            <img src="images/images/touxiang.jpg" alt="" width="38" height="38" class="pic">
+        </p>
+        <h2 class="title">我的旅游行程</h2>
+        </div>
+    
+        <p class="day2">
+            15天
+        </p>
+    
+        <div>
+            <em>
+                城市
+            </em>
+            <span>北京-常州-苏州</span>
+        </div>
+        </section>
+
+        <aside class="qui-aside">
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">目的地</a></li>
+                <li><a href="">酒店</a></li>
+                <li><a href="">机票</a></li>
+                <li><a href="">时间</a></li>
+                <li><a href="">点评</a></li>
+            </ul>
+        </aside>
 </body>
 </html>
